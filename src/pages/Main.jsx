@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import Button from '@mui/material/Button';
+import Header from '../components/Header';
 
 function Main() {
 
   return (
     <div>
          
-         <Button variant="outlined">Outlined</Button>
+        <Header/>
 
     </div>
   )
